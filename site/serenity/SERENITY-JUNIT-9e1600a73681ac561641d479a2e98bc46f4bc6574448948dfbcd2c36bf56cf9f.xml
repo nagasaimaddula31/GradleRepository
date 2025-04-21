@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="Job Management in CRM Application" skipped="18" tests="22" time="182.34" timestamp="2025-04-20 12:12:10"><testcase name="Create new Job with valid details"/><testcase name="Create new Job with dynamic job details"/></testsuite>

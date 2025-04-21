@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="1" failures="0" name="Leave Management in CRM Application" skipped="0" tests="1" time="20.37" timestamp="2025-04-20 12:04:49"><testcase name="Apply leave with valid details"><error message="Leave application canceled due to No Leave Types with Leave Balance" type="java.lang.RuntimeException">Leave application canceled due to No Leave Types with Leave Balance</error><system-err>Leave application canceled due to No Leave Types with Leave Balance&#13;
+starter.stepdefinitions.ManageLeaveTest.admin_checks_for_confirmation_message(ManageLeaveTest.java:30)&#13;
+✽.Admin checks for the confirmation message(classpath:features/ManageLeave.feature:7)&#13;
+</system-err></testcase></testsuite>

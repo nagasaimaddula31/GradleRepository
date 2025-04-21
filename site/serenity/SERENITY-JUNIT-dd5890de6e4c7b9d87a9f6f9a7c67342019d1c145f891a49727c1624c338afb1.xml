@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="Login to CRM Application" skipped="0" tests="2" time="105.51" timestamp="2025-04-20 12:03:02"><testcase name="Create new Job with valid details"/><testcase name="Create new user with valid details"/></testsuite>

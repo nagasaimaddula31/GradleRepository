@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="4" failures="0" name="Job Management in CRM Application" skipped="18" tests="22" time="207.44" timestamp="2025-04-20 01:11:13"><testcase name="Create new Job with valid details"><error message="Expected condition failed: waiting for By.xpath: //div[contains(text(),'AQA Engineer 20250420_131130Marlana')] to be displayed (tried for 5 second(s) with 100 milliseconds interval)&#10;Build info: version: '4.27.0', revision: 'd6e718d134'&#10;System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'&#10;Driver info: driver.version: unknown&#10;Build info: version: '4.27.0', revision: 'd6e718d134'&#10;System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.TimeoutException">Expected condition failed: waiting for By.xpath: //div[contains(text(),'AQA Engineer 20250420_131130Marlana')] to be displayed (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: driver.version: unknown
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: driver.version: unknown</error><system-err>Expected condition failed: waiting for By.xpath: //div[contains(text(),'AQA Engineer 20250420_131130Marlana')] to be displayed (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: driver.version: unknown
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: driver.version: unknown&#13;
+Pages.JobTitlesPage.verifyJobCreated(JobTitlesPage.java:37)&#13;
+Steps.JobManagementSteps.verifyJobCreation(JobManagementSteps.java:47)&#13;
+starter.stepdefinitions.JobManagementTest.admin_should_be_able_to_create_a_new_job(JobManagementTest.java:51)&#13;
+</system-err></testcase><testcase name="Create new Job with dynamic job details"><error message="Expected condition failed: waiting for By.xpath: //div[contains(text(),'AQA Engineer 20250420_131131Jerrod')] to be displayed (tried for 5 second(s) with 100 milliseconds interval)&#10;Build info: version: '4.27.0', revision: 'd6e718d134'&#10;System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'&#10;Driver info: driver.version: unknown&#10;Build info: version: '4.27.0', revision: 'd6e718d134'&#10;System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.TimeoutException">Expected condition failed: waiting for By.xpath: //div[contains(text(),'AQA Engineer 20250420_131131Jerrod')] to be displayed (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: driver.version: unknown
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: driver.version: unknown</error><system-err>Expected condition failed: waiting for By.xpath: //div[contains(text(),'AQA Engineer 20250420_131131Jerrod')] to be displayed (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: driver.version: unknown
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: driver.version: unknown&#13;
+Pages.JobTitlesPage.verifyJobCreated(JobTitlesPage.java:37)&#13;
+Steps.JobManagementSteps.verifyJobCreation(JobManagementSteps.java:47)&#13;
+starter.stepdefinitions.JobManagementTest.admin_should_be_able_to_create_a_new_job(JobManagementTest.java:51)&#13;
+</system-err></testcase></testsuite>
