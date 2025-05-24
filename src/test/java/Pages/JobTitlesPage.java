@@ -13,7 +13,7 @@ public class JobTitlesPage extends PageObject{
     By jobTitleField = By.xpath("//label[normalize-space()='Job Title']/following::input");
     By jobDescriptionField = By.xpath("//textarea[@placeholder='Type description here']");
     By noteField = By.cssSelector("textarea[placeholder='Add note']");
-    By saveButton = By.xpath("//button[normalize-space()='Save']");
+    By saveButton = By.xpath("//button[normalize-space()='Saves']");
     String timeStamp=TimestampUtil.getCurrentTimestamp();
     public void clickAddButton() {
         $(addButton).click();

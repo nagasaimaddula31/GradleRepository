@@ -15,7 +15,7 @@ public class UserManagementPage extends PageObject {
     private By employeeNameInput = By.xpath("//input[@placeholder='Type for hints...']");
     private By statusDropdown = By.xpath("//label[normalize-space()='Status']/following::div[contains(text(),'-- Select --')]");
     private By statusSelect=By.xpath("//span[contains(text(),'Enabled')]");
-    private By usernameInput = By.xpath("//label[normalize-space()='Username']/following::input");
+    private By usernameInput = By.xpath("//dlabel[normalize-space()='Username']/following::input");
     private By passwordInput = By.xpath("//input[@type='password']");
     private By confirmPasswordInput = By.xpath("(//input[@type='password'])[2]");
     private By saveButton = By.xpath("//button[normalize-space()='Save']");
