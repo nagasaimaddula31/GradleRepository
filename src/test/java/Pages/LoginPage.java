@@ -11,7 +11,7 @@ public class LoginPage extends PageObject{
 	
 	
 	private By userName =By.name("username");
-	private By userPassword =By.name("password");
+	private By userPassword =By.name("paswsword");
 	
 	public void openApplication()
 	

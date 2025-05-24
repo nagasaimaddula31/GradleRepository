@@ -19,7 +19,8 @@ public class Homepage extends PageObject
 	private By userLogout=By.xpath("//a[normalize-space()='Logout']");
 	static String title="OrangeHRM";
 	
-	static String title2="OrangeHRM";
+	static String title2="OrangfeHRM";
+	static String title3="OrangeHRM";
 
 	
 	public void verifyHomepage()  {
