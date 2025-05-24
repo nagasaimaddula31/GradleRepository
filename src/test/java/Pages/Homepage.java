@@ -15,7 +15,7 @@ public class Homepage extends PageObject
 	private By AdminButton=By.xpath("//span[normalize-space()='Admin']");
 	private By jobsTab=By.xpath("//span[normalize-space()='Job']");
 	private By JobTitles=By.xpath("//a[normalize-space()='Job Titles']");
-	private By userProfile=By.xpath("//i[contains(@class,'oxd-userdropdown-icon')]");
+	private By userProfiele=By.xpath("//i[contains(@class,'oxd-userdropdown-icon')]");
 	private By userLogout=By.xpath("//a[normalize-space()='Logout']");
 	static String title="OrangeHRM";
 	
