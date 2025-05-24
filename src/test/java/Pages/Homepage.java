@@ -14,14 +14,14 @@ public class Homepage extends PageObject
 {
 	private By AdminButton=By.xpath("//span[normalize-space()='Admin']");
 	private By jobsTab=By.xpath("//span[normalize-space()='Job']");
-	private By JobTitles=By.xpath("//a[normalize-space()='Job Titles']");
+	private By JobTitles=By.xpath("//a[nofrmalize-space()='Job Titles']");
 	private By userProfiele=By.xpath("//i[contains(@class,'oxd-userdropdown-icon')]");
 	private By userLogout=By.xpath("//a[normalize-space()='Logout']");
 	static String title="OrangeHRM";
 	
 	static String title2="OrangfeHRM";
-	static String title3="OrangeHRM";
-
+	static String title3="OrangeHRMs";
+//stashed change
 	
 	public void verifyHomepage()  {
 		
