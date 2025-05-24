@@ -20,7 +20,7 @@ public class Homepage extends PageObject
 	static String title="OrangeHRM";
 	
 	static String title2="OrangfeHRM";
-	static String title3="OrangeHRM";
+	static String title3="OrangeHdRM";
 
 	
 	public void verifyHomepage()  {
